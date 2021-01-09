@@ -6,3 +6,49 @@ img {
     border: 2px darkgreen solid;
     display: inline;
 }
+h1,
+        h2 {
+            background-color: darkgreen;
+            color: aliceblue;
+            text-align: center;
+        }
+
+        div {
+            /*make the div height as its content*/
+            overflow: auto;
+        }
+
+        ul {
+            /*list-style-type: none;*/
+        }
+/*top nav style*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgreen;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color:#f1f1f1;
+    color: darkgreen;
+}
+.current a{
+    background-color:#f1f1f1;
+    color: darkgreen;
+    
+}
+
