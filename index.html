@@ -2,37 +2,47 @@
 <html lang="en-US">
 
 <head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Victorien Sukarieh,Personal Website">
+    <meta name="author" content="Victorien Sukarieh">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Victorien Sukarieh</title>
     <link rel="stylesheet" href="files/css/style.css">
+    <style>
+
+    </style>
+
 </head>
 
 <body>
     <nav>
         <ul>
-            <li><a>VS</a></li>
+            <li><a href="javascript:myFunction()">VS</a></li>
             <li><a href="#profile">profile</a></li>
             <li><a href="#experience">experience</a></li>
             <li><a href="#education">education</a></li>
             <li><a href="#skills">skills</a></li>
             <li><a href="#technologies">technologies</a></li>
             <li><a href="#personal">personal</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
         </ul>
     </nav>
     <div id="profile">
         <!--<h1 title="General Kenobi!">Hello There!</h1>-->
-        <h1>Hello! I am Victorien Sukarieh</h1>
-        <img src="files/img/me.jpg" width="125" height="125" alt="victorien profile picture" title="Victorien Sukarieh"
-            style="float:right;display:block;">
-        <p>a summary will be placed here</p>
+        <h1>Hello! I am Victorien&nbspSukarieh &#128512;</h1>
+        <figure>
+            <img src="files/img/me.jpg" width="125" height="125" alt="victorien profile picture" title="Victorien Sukarieh" style="float:right;display:block;">
+            <figcaption></figcaption>
+        </figure>
+        <p id="me"></p>
         <h2>Contact info</h2>
         <ul>
             <li>
-                <a href="mailto:vsukarieh@gmail.com?Subject=Hello%20From%20Your%20Personal%20Website"
-                    target="_blank">vsukarieh@gmail.com</a>
+                <a href="mailto:vsukarieh@gmail.com?Subject=Hello%20From%20Your%20Personal%20Website" target="_blank">vsukarieh@gmail.com</a>
             </li>
             <li>
-                <a href="https://wa.me/96170614542?text=I'm%20interested%20in%20your%20car%20for%20sale">+961 70 614
-                    542</a>
+                <a href="https://wa.me/96170614542?text=I'm%20interested%20in%20your%20car%20for%20sale">+961 70 614 542</a>
             </li>
         </ul>
         <ul>
@@ -63,10 +73,10 @@
                     <li>Beirut Arab University</li>
                     <li><i>January 2013 till April 2014</i></li>
                 </ul>
-            </li>            
+            </li>
         </ul>
         <h3>work experience - General</h3>
-        <ul >
+        <ul>
             <li><strong>Human Resources Information Systems Specialist</strong>
                 <ul style="list-style-type: none;">
                     <li>Beirut Arab University</li>
@@ -78,19 +88,19 @@
                     <li>Beirut Arab University</li>
                     <li><i>Agust 2011 till January 2013</i></li>
                 </ul>
-            </li>            
-        </ul>        
+            </li>
+        </ul>
     </div>
     <div id="education">
-        <h2>Education</h2>        
+        <h2>Education</h2>
         <h3>Academic education</h3>
-        <ul >
+        <ul>
             <li><strong>Bachelor of Science in Computer Sciences</strong>
                 <ul style="list-style-type: none;">
                     <li>Beirut Arab University</li>
                     <li><i>Class of 2011</i></li>
                 </ul>
-            </li>                       
+            </li>
         </ul>
         <h3>Certifications</h3>
     </div>
@@ -105,6 +115,13 @@
         <h3>interests</h3>
         <h3>Hobbies</h3>
     </div>
+
+    <script>
+        function myFunction() {
+            document.getElementById("me").innerHTML = "Victorien Sukarieh";
+        }
+    </script>
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
 </body>
 
 </html>
