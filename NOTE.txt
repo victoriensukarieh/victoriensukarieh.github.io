@@ -1,0 +1,5 @@
+1- add a blog (different domain)
+	a. can be in same domain using JSON file(because github hosting only allow static websites)
+2- search box search by "keywords"
+	a. keywords are for blog posts and projects
+3. use font awesome or line awesome for icons 
