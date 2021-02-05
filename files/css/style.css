@@ -1,27 +1,34 @@
 body {
-    background-color: #f1f1f1 ;
+    background-color: #f1f1f1;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 img {
     border: 2px darkgreen solid;
     display: inline;
+    width: 125px;
+    height: 125px;
 }
+
 h1,
-        h2 {
-            background-color: darkgreen;
-            color: aliceblue;
-            text-align: center;
-        }
+h2 {
+    background-color: darkgreen;
+    color: aliceblue;
+    text-align: center;
+}
 
-        div {
-            /*make the div height as its content*/
-            overflow: auto;
-        }
+div {
+    /*make the div height as its content*/
+    overflow: auto;
+}
 
-        ul {
-            /*list-style-type: none;*/
-        }
+ul {
+    /*list-style-type: none;*/
+}
+
+
 /*top nav style*/
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -43,12 +50,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color:#f1f1f1;
+    background-color: #f1f1f1;
     color: darkgreen;
-}
-.current a{
-    background-color:#f1f1f1;
-    color: darkgreen;
-    
 }
 
+.current a {
+    background-color: #f1f1f1;
+    color: darkgreen;
+}
