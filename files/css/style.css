@@ -105,13 +105,13 @@ nav li a:hover {
 /*footer Style*/
 
 footer ul.social {
-    list-style: none;
+    list-style-type: none;
     float: right;
     margin-top: 0;
 }
 
 footer ul.copy {
-    list-style: none;
+    list-style-type: none;
     float: left;
     margin-top: 0;
     padding-left: 5px;
