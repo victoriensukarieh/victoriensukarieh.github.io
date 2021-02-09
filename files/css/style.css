@@ -104,14 +104,16 @@ nav li a:hover {
 
 /*footer Style*/
 
-footer ul.social {
+footer ul {
     list-style-type: none;
+}
+
+footer ul.social {
     float: right;
     margin-top: 0;
 }
 
 footer ul.copy {
-    list-style-type: none;
     float: left;
     margin-top: 0;
     padding-left: 5px;
