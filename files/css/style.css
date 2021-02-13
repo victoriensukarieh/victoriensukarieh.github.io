@@ -3,14 +3,6 @@
     font-family: 'Ubuntu', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-<<<<<<< Updated upstream
-:root {
-    --color-top: #0070ff;
-    --color-bottom: #f1f1f1;
-}
-
-=======
->>>>>>> Stashed changes
 body {
     background-color: var(--color-bottom);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
