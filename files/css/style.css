@@ -2,7 +2,6 @@
 * {
     font-family: 'Ubuntu', Verdana, Geneva, Tahoma, sans-serif;
     /*property is not being overwritten by below rules, still need to research this*/
-    /*color: var(--color-font);*/
 }
 
 *::selection {
@@ -12,6 +11,7 @@
 body {
     background-color: var(--color-bottom);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--color-font);
 }
 
 img {

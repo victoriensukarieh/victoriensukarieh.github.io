@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="vQCn2RvLGXOJlmkfy_ziCCzZJDalKz_fWOLfK8Fs_60" />
     <title>Victorien Sukarieh | Personal Website</title>
-    <link rel="stylesheet" href="files/css/colors.css">
+    <link id="mainStyle" rel="stylesheet" href="files/css/colors.css">
     <link rel="stylesheet" href="files/css/style.css">
     <link rel="icon" href="files/img/favicon.ico">
     <!-- Font Awesome Icons -->
@@ -28,6 +28,7 @@
                 <li><a href="#technologies">technologies</a></li>
                 <li><a href="#personal">personal</a></li>
                 <!--<li><a href="feedback.html">Feedback</a></li>-->
+                <li><a href="#" onclick="toggleTheme()">Toggle Theme</a></li>
             </ul>
         </nav>
     </header>
@@ -166,6 +167,14 @@
     </footer>
 
     <script>
+        function toggleTheme() {
+            var el = document.getElementById("mainStyle");
+            if (el.href.match("files/css/colors.css")) {
+                el.href = "files/css/invertcolors.css";
+            } else {
+                el.href = "files/css/colors.css";
+            }
+        }
     </script>
     <noscript>
         <p>Sorry, your browser does not support JavaScript!</p>

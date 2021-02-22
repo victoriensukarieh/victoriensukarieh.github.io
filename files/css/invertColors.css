@@ -1,4 +1,5 @@
 :root {
-    --color-bottom: rgba(0, 112, 255, 1);
-    --color-top: #f1f1f1;
+    --color-top: #0070ff;
+    --color-bottom: #000;
+    --color-font: #f1f1f1;
 }
