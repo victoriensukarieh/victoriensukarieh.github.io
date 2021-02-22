@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
 * {
     font-family: 'Ubuntu', Verdana, Geneva, Tahoma, sans-serif;
+    /*property is not being overwritten by below rules, still need to research this*/
+    /*color: var(--color-font);*/
+}
+
+*::selection {
+    background-color: var(--color-top);
 }
 
 body {
@@ -41,6 +47,10 @@ p {
 
 a {
     color: var(--color-top)
+}
+
+ul {
+    list-style-type: square;
 }
 
 a:visited {
@@ -84,7 +94,8 @@ nav li a:visited {
     text-transform: capitalize;
 }
 
-nav li a:hover {
+nav li a:hover,
+nav li a:active {
     background-color: var(--color-bottom);
     color: var(--color-top);
 }
@@ -121,10 +132,18 @@ footer li {
     float: left;
 }
 
-footer li a {
+footer li a:link,
+footer li a:visited {
     text-decoration: none;
     padding: 15px 5px 15px;
     text-align: center;
+}
+
+footer li a:hover {
+    text-decoration: none;
+    padding: 15px 5px 15px;
+    text-align: center;
+    opacity: 0.6;
 }
 
 
