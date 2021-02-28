@@ -12,6 +12,7 @@ body {
     background-color: var(--color-bottom);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: var(--color-font);
+    margin: 0;
 }
 
 img {
